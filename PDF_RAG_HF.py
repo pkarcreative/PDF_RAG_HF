@@ -163,7 +163,7 @@ def pdf_rag_context(df_db, question, top_relevant_chunks):
 # Sidebar with Hugging Face token, model selector, and slider
 
 #hf_token = st.sidebar.text_input("Enter Hugging Face Token (Required)", type="password")
-hf_token = "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"
+#hf_token = DEFAULT_HF_TOKEN
 
 
 # Main panel with PDF upload, question input, and answer display
