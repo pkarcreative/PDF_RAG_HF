@@ -36,9 +36,7 @@ if st.sidebar.button("Clear Chat History"):
     st.success("Chat history cleared.")
     
 user_hf_token = st.sidebar.text_input("Enter your Hugging Face Token (optional):", type="password")   
-    
-    
-    
+st.sidebar.write("Using:", "Your token" if user_hf_token else "Default token")
     
 # Add a spacer using st.sidebar.empty()
 for _ in range(10):  # Adjust the range for spacing
