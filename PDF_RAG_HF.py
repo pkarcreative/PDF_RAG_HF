@@ -54,7 +54,7 @@ st.sidebar.info("📌 **Any Question?** [Please contact](https://www.linkedin.co
 model_id = "sentence-transformers/all-MiniLM-L6-v2"
 
 DEFAULT_HF_TOKEN = "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" #(promotions.social1)"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"(pkarcreative)
-hf_token = DEFAULT_HF_TOKEN #user_hf_token if user_hf_token else DEFAULT_HF_TOKEN
+hf_token = user_hf_token if user_hf_token else DEFAULT_HF_TOKEN
 
 api_url = f"https://api-inference.huggingface.co/pipeline/feature-extraction/{model_id}"
 headers = {"Authorization": f"Bearer {hf_token}"}
