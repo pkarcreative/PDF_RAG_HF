@@ -46,7 +46,7 @@ for _ in range(20):  # Adjust the range for spacing
 
 # Bottom content
 st.sidebar.markdown("---")  # Optional: Separator
-st.sidebar.markdown("This application is developed using Large Language Models (LLMs) accessed via the Hugging Face API, with ChromaDB serving as the vector database for efficient data storage and retrieval.")
+st.sidebar.markdown("This application is developed using Large Language Models (LLMs) accessed via the Hugging Face API. The data remains only within your browser session and is not stored anywhere else. Once you refresh the page, all data—including your uploaded PDF, embeddings, questions, and answers—will be permanently lost.")
 st.sidebar.info("📌 **Any Question?** [Please contact](https://www.linkedin.com/in/priyabrata-karmakar-phd-0806b3a8/)")
 
     
