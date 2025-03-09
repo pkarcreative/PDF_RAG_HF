@@ -41,7 +41,7 @@ user_hf_token = st.sidebar.text_input("Enter your Hugging Face Token (optional):
     
     
 # Add a spacer using st.sidebar.empty()
-for _ in range(20):  # Adjust the range for spacing
+for _ in range(10):  # Adjust the range for spacing
     st.sidebar.write("")
 
 # Bottom content
