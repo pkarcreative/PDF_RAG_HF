@@ -47,6 +47,7 @@ for _ in range(20):  # Adjust the range for spacing
 # Bottom content
 st.sidebar.markdown("---")  # Optional: Separator
 st.sidebar.markdown("This application is developed using Large Language Models (LLMs) accessed via the Hugging Face API. The data remains only within your browser session and is not stored anywhere else. Once you refresh the page, all data—including your uploaded PDF, embeddings, questions, and answers—will be permanently lost.")
+st.sidebar.markdown("⚠️This application may not function properly if the Hugging Face API usage limit is exceeded.")
 st.sidebar.info("📌 **Any Question?** [Please contact](https://www.linkedin.com/in/priyabrata-karmakar-phd-0806b3a8/)")
 
     
