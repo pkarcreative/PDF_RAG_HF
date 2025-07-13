@@ -54,7 +54,6 @@ else:
         st.sidebar.error("🚫 Free trial exhausted! Please add your OpenAI API key to continue.")
     elif remaining <= 3:
         st.sidebar.warning("⚠️ Almost out of free questions! Add your API key for unlimited usage.")
-        st.sidebar.info(f"🆓 Free trial: {remaining}/{FREE_USAGE_LIMIT} questions remaining")
     else:
         st.sidebar.info(f"🆓 Free trial for 5 questions only")
     
