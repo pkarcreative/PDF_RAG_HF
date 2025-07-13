@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
-  push:  # Triggers on every push for testing
 
 jobs:
   ping:
