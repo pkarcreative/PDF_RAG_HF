@@ -2,6 +2,12 @@
 
 A Streamlit-based application that allows you to upload PDF documents and ask questions about their content using OpenAI's GPT-4o-mini model with vector embeddings for intelligent document retrieval.
 
+## 🚀 Live Application
+
+**Access the app directly here: [https://pdf-rag-hf.streamlit.app/](https://pdf-rag-hf.streamlit.app/)**
+
+⚠️ **Note**: This application is under continuous development. New features and improvements are regularly added to enhance your experience.
+
 ## Features
 
 - **PDF Upload & Processing**: Upload any PDF document for analysis
@@ -16,8 +22,8 @@ A Streamlit-based application that allows you to upload PDF documents and ask qu
 
 1. **Clone the repository**:
 ```bash
-git clone <your-repo-url>
-cd pdf-rag-assistant
+git clone https://github.com/pkarcreative/PDF_RAG_HF.git
+cd PDF_RAG_HF
 ```
 
 2. **Install required packages**:
@@ -27,7 +33,7 @@ pip install streamlit tqdm pandas pypdf langchain openai numpy requests
 
 3. **Run the application**:
 ```bash
-streamlit run app.py
+streamlit run PDF_RAG_HF.py
 ```
 
 ## Usage
