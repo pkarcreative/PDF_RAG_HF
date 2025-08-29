@@ -163,7 +163,4 @@ This project is open source. Please check the license file for details.
 - LangChain for document processing utilities
 
 
-This app will be continuously developed.
-This app can be accessed here: https://pdf-rag-hf.streamlit.app/
-
 
