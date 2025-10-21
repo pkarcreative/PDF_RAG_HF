@@ -4,7 +4,8 @@ import pandas as pd
 from pypdf import PdfReader
 #from langchain.docstore.document import Document as LangchainDocument
 from langchain_core.documents import Document as LangchainDocument
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+#from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.memory import ConversationBufferMemory
 import requests
 import time
@@ -198,4 +199,5 @@ if uploaded_file is not None and 'embedding' in st.session_state:
                 else:
                     st.warning("🔑 **Add your API key for unlimited usage!**")
                     
+
 
